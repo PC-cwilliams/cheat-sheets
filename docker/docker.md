@@ -8,7 +8,7 @@ Documentation: [Docker Documentation | Docker Documentation](https://docs.docker
 ## Installation
 
 One click installation script:
-```
+```s
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
