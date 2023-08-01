@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ubuntu 20.04
 ## Resize File System
 
@@ -8,3 +9,5 @@ Resize partition: `sudo cfdisk`
 Extend PV physical volume: `pvresize /dev/sda3`
 Extend logical volume: `lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv`
 Resize: `resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv`
+=======
+>>>>>>> d0305c26e5e595176cf04bc8943de06a1bf719ae
